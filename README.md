@@ -30,6 +30,11 @@
   
 
 <ins>**Instruction to setup the project**</ins>
+step 1: create a virtual environment (Python version - 3.10)
+step 2: Clone the Repository -> git clone https://github.com/Gaganyadav2209/Emittr_Assignment.git
+step 3: pip install --upgrade pip
+step 4: pip install -r requirements.txt
+
 
 I have used python version **3.10** across my project.
 1) I have provided 3 python notebooks -> Final_NER.ipynb (for named entity extraction), Intent_sentiment.ipynb (For classifying intent and sentiment of patient transcript), SOAP_implementation(to get SOAP notes of the transcription)
