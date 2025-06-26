@@ -29,7 +29,8 @@
 
   
 
-**Instruction to setup the project**
+<ins>**Instruction to setup the project**</ins>
+
 I have used python version **3.10** across my project.
 1) I have provided 3 python notebooks -> Final_NER.ipynb (for named entity extraction), Intent_sentiment.ipynb (For classifying intent and sentiment of patient transcript), SOAP_implementation(to get SOAP notes of the transcription)
 2) I have attached a requirements.txt file with it, which includes dependencies required to run the project.
