@@ -1,0 +1,11 @@
+gradio==3.47.0
+numpy==1.23.5
+spacy==3.7.5
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+en-core-sci-lg @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz
+en-ner-bc5cdr-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+rapidfuzz==3.13.0
+transformers==4.52.4
+torch==2.7.1
+sentence-transformers==2.2.2
+scikit-learn==1.3.0
