@@ -29,11 +29,12 @@
 
   
 
-<ins>**Instruction to setup the project**</ins>
-step 1: create a virtual environment (Python version - 3.10)
-step 2: Clone the Repository -> git clone https://github.com/Gaganyadav2209/Emittr_Assignment.git
-step 3: pip install --upgrade pip
-step 4: pip install -r requirements.txt
+<ins>**Instruction to setup the project**</ins> 
+
+1) create a virtual environment (Python version - 3.10)
+2) Clone the Repository -> git clone https://github.com/Gaganyadav2209/Emittr_Assignment.git
+3) pip install --upgrade pip
+4) pip install -r requirements.txt
 
 
 I have used python version **3.10** across my project.
