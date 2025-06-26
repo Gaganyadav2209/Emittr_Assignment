@@ -1,5 +1,5 @@
 # Emittr_Assignment
-
+**Live link: (Deployed on HuggingFace Spaces)** https://huggingface.co/spaces/Gagan2209/Emitrr   (Wait for 5-10 second to app to load)
 <ins>**Overview**</ins>
 - I have developed an application that performs NER to extract [Symptoms, Treatment, Diagnosis, Prognosis] using Spacy.
 - For Sentiment and Intent Detection I have used a zero-shot Classifier because I did not had any custome data available to fine-tuning BERT, I have used valhalla/distilbart-mnli-12-1 for sentiment and intent classification
@@ -28,4 +28,15 @@
 
   
 
+**Instruction to setup the project**
+I have used python version **3.10** across my project.
+1) I have provided 3 python notebooks -> Final_NER.ipynb (for named entity extraction), Intent_sentiment.ipynb (For classifying intent and sentiment of patient transcript), SOAP_implementation(to get SOAP notes of the transcription)
+2) I have attached a requirements.txt file with it, which includes dependencies required to run the project.
+3) Simply create a **virtual environment** and install all the dependencies inside of it. (pip install -r requirements.txt)
+4) I have also provided an app.py file which is a gradio file for my project using this you can see demo for project, after installing all the dependencies just run this file.
+
+<ins>**Output screenshots**</ins>
+1) NER
+
+   
 
