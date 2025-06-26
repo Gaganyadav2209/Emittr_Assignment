@@ -1,5 +1,6 @@
 # Emittr_Assignment
 **Live link: (Deployed on HuggingFace Spaces)** https://huggingface.co/spaces/Gagan2209/Emitrr   (Wait for 5-10 second to app to load)
+
 <ins>**Overview**</ins>
 - I have developed an application that performs NER to extract [Symptoms, Treatment, Diagnosis, Prognosis] using Spacy.
 - For Sentiment and Intent Detection I have used a zero-shot Classifier because I did not had any custome data available to fine-tuning BERT, I have used valhalla/distilbart-mnli-12-1 for sentiment and intent classification
@@ -36,7 +37,33 @@ I have used python version **3.10** across my project.
 4) I have also provided an app.py file which is a gradio file for my project using this you can see demo for project, after installing all the dependencies just run this file.
 
 <ins>**Output screenshots**</ins>
-1) NER
+1) **NER**
+   <img width="1440" alt="app2" src="https://github.com/user-attachments/assets/1b1499c1-f05d-486f-9cf1-402a4b1c7a52" />
+<img width="1440" alt="app1" src="https://github.com/user-attachments/assets/a28eab1c-7230-4723-ac40-b9cec322f716" />
+
+2) **Sentiment and Intent Detection**
+   <img width="1440" alt="app5" src="https://github.com/user-attachments/assets/cdd63abb-32f3-43f7-97dd-a2fbef27004e" />
+   <img width="1440" alt="app6" src="https://github.com/user-attachments/assets/140b8a2a-b901-4571-8bf1-a65989c62215" />
+
+3) **SOAP Notes**
+   <img width="1440" alt="app4" src="https://github.com/user-attachments/assets/eb412e9c-c8ed-47a4-8e16-08043b5f5364" />
+   <img width="1440" alt="app3" src="https://github.com/user-attachments/assets/3ec56942-07d4-4333-9cd4-8f800c3ad573" />
+
+
+<ins>**Questions asked in assignment**</ins>
+1) How would you handle ambiguous or missing medical data in the transcript?
+   - For this type of problem I came up with some approaches ->
+   a) if any of the fields are not extracted then we can rather have a placeholder like "Not Specified" as it increases    transparency and reduces chances of any error as our use   case is  sensitive.
+  b) Introducing Contextual aware entity recognition, this will help us build coreference between surrounding entitites.
+
+2) What pre-trained NLP models would you use for medical summarization?
+   - For medical summarization I tried out different models such as BioMed-T5 and facebook/bart-large-cnn, the results were great using these models.
+
+3) How would you fine-tune BERT for medical sentiment detection?
+   -  I would start with a base model such as Bio_ClinicalBERT, then I would collect and prepare my sentiment data with the target classes as "anxious", "neutral" and "reassured" , after this step I would fine tune my BERT model.
+
+4) What datasets would you use for training a healthcare-specific sentiment model?
+   -  Honestly I Googled to find out these and got some datasets such as SentiHealth, MIMIC-III/IV, DAIC-WOZ, I would also suggest to have custom data collected.
 
    
 
